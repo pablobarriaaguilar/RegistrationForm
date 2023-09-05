@@ -6,17 +6,17 @@
     <H1>Registration Form</H1>
     <form>
 <label for="firstName">First Name:</label>
-<input type="text"  id="firstName"required/>
+<input type="text"  id="firstName" name="firstName"  required/>
 <label for="lastName">Last Name:</label>
-<input type="text" id="lastName" required/>
+<input type="text" id="lastName"  name="lastName" required/>
 <label for="email">Email Addres: </label>
-<input type="email" id="email" required>
+<input type="email" id="email" name="email"  required>
 <label for="password">Password:</label>
-<input type="password" id="password" required>
+<input type="password" id="password" name="password" required>
 <label for="confirmPassword">Confirm Password:</label>
-<input type="password" id="confirmPassword" required>
+<input type="password" id="confirmPassword" name="confirmPassword" required>
 <label for="birthday">Birthday:</label>
-<input type="date" id="birthday">
+<input type="date" id="birthday" name="birthday">
 <label for="gender">Gender Identity</label>
 
     <input type="radio" id="gender" value="Male">
@@ -25,12 +25,12 @@
     <label for="female">Female</label>
 
 <p>A short description about myself:</p>
-<textarea id="myself">
+<textarea id="myself" name="myself">
 
 </textarea>
 
 <label for="Language">Favorite Language</label>
-<select id="Languague">
+<select id="Languague" name="Language">
     <option value="Javascript">Javascript</option>
     <option value="c#">C#</option>
 </select>
