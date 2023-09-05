@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<head>
+<title>Registration Form</title>
+</head>
+<body>
+    <H1>Registration Form</H1>
+    <form>
+<label for="firstName">First Name:</label>
+<input type="text"  name="firstName"required/>
+<label for="lastName">Last Name:</label>
+<input type="text" name="lastName" required/>
+<label for="email">Email Addres: </label>
+<input type="email" name="email" required>
+<label for="password">Password:</label>
+<input type="password" name="password" required>
+<label for="confirmPassword">Confirm Password:</label>
+<input type="password" name="conpassword" required>
+<label for="birthday">Birthday:</label>
+<input type="date" name="birthday">
+<label for="gender">Gender Identity</label>
+
+    <input type="radio" name="gender" value="Male">
+    <label for="male">Male</label>
+    <input type="radio" name="gender" value="Female">
+    <label for="female">Female</label>
+
+<p>A short description about myself:</p>
+<textarea name="myself">
+
+</textarea>
+
+<label for="">Favorite Language</label>
+<select name="Languague">
+    <option value="Javascript">Javascript</option>
+    <option value="c#">C#</option>
+</select>
+<input type="checkbox" name="receive" id=""><label for="receive">Yes, i would like to receive periodic email update</label>
+<input type="submit" value="Create Account">
+
+    </form>
+</body>
+</html>
